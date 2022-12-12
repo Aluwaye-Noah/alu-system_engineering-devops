@@ -1,4 +1,4 @@
-u#!/usr/bin/env bash
+#!/usr/bin/env bash
 #must be running as nginx user
 chmod 644 /etc/nginx/nginx.conf
 sed -i 's/80 default_server/8080 default_server/' /etc/nginx/sites-available/default
